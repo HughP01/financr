@@ -434,7 +434,7 @@
 <div class="noise"></div>
 
 <header>
-  <div class="logo">financr</div>
+  <div class="logo">financ<span>r</span></div>
   <div id="statusPill" class="status-pill">awaiting data</div>
 </header>
 
@@ -444,8 +444,10 @@
     <span class="upload-icon">📊</span>
     <div class="upload-title">Drop your Excel file here</div>
     <div class="upload-sub">.xlsx or .xls files supported · Your data stays local, nothing is uploaded</div>
-    <button class="btn" onclick="document.getElementById('fileInput').click()">Choose File</button>
-    <input type="file" id="fileInput" accept=".xlsx,.xls,.csv" style="display:none">
+    <label class="btn" style="cursor:pointer;display:inline-block;">
+      Choose File
+      <input type="file" id="fileInput" accept=".xlsx,.xls,.csv" style="display:none">
+    </label>
     <div class="format-note" style="max-width:500px;margin:1.5rem auto 0;">
       <strong>Expected columns (flexible):</strong><br>
       Date · Description/Category · Amount · Type (income/expense) <br>
