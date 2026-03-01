@@ -9,3 +9,18 @@ import dash
 # --- APP ---
 app = Dash(__name__, suppress_callback_exceptions=True)
 app.title = "finance loggr"
+
+# --- Palette ---
+
+# --- Layout ---
+
+# Main content
+  # Main content here
+
+# --- Helpers ---
+
+# --- Callbacks ---
+
+# --- Data prep ---
+
+# --- Run ---
