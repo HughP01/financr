@@ -1,4 +1,4 @@
-# financr
+# finance loggr
 
 ## To do
 - Move html to python script
